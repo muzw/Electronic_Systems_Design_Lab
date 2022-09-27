@@ -1,4 +1,4 @@
--- 作业1 序列检测器 @PB20051061牟真伟
+-- 作业2 序列检测器 @PB20051061牟真伟
 
 library ieee;
 use ieee.std_logic_1164.all;

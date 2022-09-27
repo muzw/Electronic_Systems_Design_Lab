@@ -21,9 +21,9 @@ VSFzai[TKoBH63M@gg[2H[2
 !s100 9D]o5KVjKYUj0GRP6nWEK0
 Z7 OL;C;10.2c;57
 31
-Z8 !s110 1664276244
+Z8 !s110 1664277611
 !i10b 1
-Z9 !s108 1664276244.062000
+Z9 !s108 1664277611.111000
 Z10 !s90 -reportprogress|300|-93|-work|sgate|d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|
 Z11 !s107 d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|
 !i111 0
@@ -804,10 +804,10 @@ VceFeiMV8?VfzR2>nXE6ZT2
 R7
 31
 b1
-Z78 !s110 1664276243
-Z79 !s108 1664276243.983000
-Z80 !s90 -reportprogress|300|-93|-work|sgate|d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|
-Z81 !s107 d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|
+R8
+Z78 !s108 1664277611.025000
+Z79 !s90 -reportprogress|300|-93|-work|sgate|d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|
+Z80 !s107 d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|
 R12
 R13
 !s100 fSGJ60kf_378nmfC4`AW11
@@ -823,10 +823,10 @@ VI62j[NR^FB8n8^AT=oQzC0
 !s100 5^OYV=K0=AdLWZUeD=L;L1
 R7
 31
+R8
 R78
 R79
 R80
-R81
 R12
 R13
 nbody
@@ -856,11 +856,11 @@ R13
 Asim_arch
 R2
 R3
-Z82 DEx4 work 7 tri_bus 0 22 W8PX7k>Bac:cA4l3L__0k0
+Z81 DEx4 work 7 tri_bus 0 22 W8PX7k>Bac:cA4l3L__0k0
 l306
 L304
-Z83 V:OA0l^Nmh_M7kQXYk`=;c2
-Z84 !s100 _dYlda?W86YfFT2<gBM8K2
+Z82 V:OA0l^Nmh_M7kQXYk`=;c2
+Z83 !s100 _dYlda?W86YfFT2<gBM8K2
 R7
 31
 R8

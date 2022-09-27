@@ -58,17 +58,18 @@ set_global_assignment -name EDA_TEST_BENCH_NAME SEQ_DECT_tb -section_id eda_simu
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id SEQ_DECT_tb
 set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1000 s" -section_id SEQ_DECT_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME SEQ_DECT_tb -section_id SEQ_DECT_tb
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VHDL_FILE SEQ_GEN_tb.vhd
 set_global_assignment -name VHDL_FILE SEQ_GEN.vhd
 set_global_assignment -name VHDL_FILE SEQ_DECT.vhd
 set_global_assignment -name VHDL_FILE SEQ_DECT_tb.vhd
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_FILE SEQ_DECT_tb.vhd -section_id SEQ_DECT_tb
 set_global_assignment -name EDA_TEST_BENCH_NAME SEQ_GEN_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id SEQ_GEN_tb
 set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1000 ns" -section_id SEQ_GEN_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME SEQ_GEN_tb -section_id SEQ_GEN_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE SEQ_GEN_tb.vhd -section_id SEQ_GEN_tb
+set_global_assignment -name VHDL_FILE FPGA_EXP3.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

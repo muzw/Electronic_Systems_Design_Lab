@@ -3,11 +3,11 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity FPGA_EXP3_tb is
-end FPGA_EXP3_tb;
+entity SEQ_GEN_tb is
+end SEQ_GEN_tb;
 
-architecture arch_FPGA_EXP3_tb of FPGA_EXP3_tb is
-	component FPGA_EXP3 port(
+architecture arch_SEQ_GEN_tb of SEQ_GEN_tb is
+	component SEQ_GEN port(
 			clk :IN std_logic;
 			reset :IN std_logic;
 			output :OUT std_logic
@@ -17,7 +17,7 @@ architecture arch_FPGA_EXP3_tb of FPGA_EXP3_tb is
 	signal reset :std_logic;
 	signal output :std_logic;
 begin
-	fsm: FPGA_EXP3 port map(clk, reset, output);
+	fsm: SEQ_GEN port map(clk, reset, output);
 	
 	process
 	begin
@@ -103,4 +103,4 @@ begin
 		clk 	<= '0';
 		wait for 20 ns;
 	end process;
-end arch_FPGA_EXP3_tb;
+end arch_SEQ_GEN_tb;

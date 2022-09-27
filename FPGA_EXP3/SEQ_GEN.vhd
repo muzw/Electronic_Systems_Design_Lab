@@ -3,15 +3,15 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity FPGA_EXP3 is
+entity SEQ_GEN is
 	port(
 		clk :IN std_logic;
 		reset :IN std_logic;
 		output :OUT std_logic
 	);
-end FPGA_EXP3;
+end SEQ_GEN;
 
-architecture arch_FPGA_EXP3 of FPGA_EXP3 is
+architecture arch_SEQ_GEN of SEQ_GEN is
 	type states is (S0,S1,S2,S3,S4,S5,S6,S7);
 	signal st :states;
 begin
@@ -43,7 +43,7 @@ begin
 			output <= '0';
 		end if;
 	end process;
-end arch_FPGA_EXP3;
+end arch_SEQ_GEN;
 	
 			
 

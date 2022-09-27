@@ -1,5 +1,5 @@
 Analysis & Synthesis report for FPGA_EXP3
-Tue Sep 27 19:01:25 2022
+Tue Sep 27 19:31:29 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                           ;
 +-------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status         ; Successful - Tue Sep 27 19:01:25 2022            ;
+; Analysis & Synthesis Status         ; Successful - Tue Sep 27 19:31:29 2022            ;
 ; Quartus II 64-Bit Version           ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                       ; FPGA_EXP3                                        ;
 ; Top-level Entity Name               ; SEQ_DECT                                         ;
@@ -261,21 +261,24 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Sep 27 19:01:23 2022
+    Info: Processing started: Tue Sep 27 19:31:27 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FPGA_EXP3 -c FPGA_EXP3
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file seq_gen_tb.vhd
-    Info (12022): Found design unit 1: FPGA_EXP3_tb-arch_FPGA_EXP3_tb
-    Info (12023): Found entity 1: FPGA_EXP3_tb
+    Info (12022): Found design unit 1: SEQ_GEN_tb-arch_SEQ_GEN_tb
+    Info (12023): Found entity 1: SEQ_GEN_tb
 Info (12021): Found 2 design units, including 1 entities, in source file seq_gen.vhd
-    Info (12022): Found design unit 1: FPGA_EXP3-arch_FPGA_EXP3
-    Info (12023): Found entity 1: FPGA_EXP3
+    Info (12022): Found design unit 1: SEQ_GEN-arch_SEQ_GEN
+    Info (12023): Found entity 1: SEQ_GEN
 Info (12021): Found 2 design units, including 1 entities, in source file seq_dect.vhd
     Info (12022): Found design unit 1: SEQ_DECT-arch_SEQ_DECT
     Info (12023): Found entity 1: SEQ_DECT
 Info (12021): Found 2 design units, including 1 entities, in source file seq_dect_tb.vhd
     Info (12022): Found design unit 1: SEQ_DECT_tb-arch_SEQ_DECT_tb
     Info (12023): Found entity 1: SEQ_DECT_tb
+Info (12021): Found 2 design units, including 1 entities, in source file fpga_exp3.vhd
+    Info (12022): Found design unit 1: FPGA_EXP3-arch_FPGA_EXP3
+    Info (12023): Found entity 1: FPGA_EXP3
 Info (12127): Elaborating entity "SEQ_DECT" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -285,8 +288,8 @@ Info (21057): Implemented 14 device resources after synthesis - the final resour
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 10 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4723 megabytes
-    Info: Processing ended: Tue Sep 27 19:01:25 2022
+    Info: Peak virtual memory: 4715 megabytes
+    Info: Processing ended: Tue Sep 27 19:31:29 2022
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
