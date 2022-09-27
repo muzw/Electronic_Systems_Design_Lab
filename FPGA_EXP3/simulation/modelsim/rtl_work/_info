@@ -10,96 +10,174 @@ Z0 dD:/education/fpga/class/FPGA_EXP/FPGA_EXP3/simulation/modelsim
 !i10f 100
 T_opt
 VUZ8Z[<DajgH6^jX075eW03
-Z1 04 11 16 work seq_dect_tb arch_seq_dect_tb 1
+04 11 16 work seq_dect_tb arch_seq_dect_tb 1
 =1-1cbfc08e8741-6332d719-138-4474
-Z2 o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
+Z1 o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
 n@_opt
-Z3 OL;O;10.2c;57
-Z4 dD:/education/fpga/class/FPGA_EXP/FPGA_EXP3/simulation/modelsim
+Z2 OL;O;10.2c;57
+Z3 dD:/education/fpga/class/FPGA_EXP/FPGA_EXP3/simulation/modelsim
 !s110 1664276249
 T_opt1
-!s110 1664277616
-VM_FSge<_F9NZ`n@UgP<CQ3
+!s110 1664281047
+ViH[V3g;MCoURXQU0]J_2>1
+04 12 17 work fpga_exp3_tb arch_fpga_exp3_tb 1
+=1-1cbfc08e8741-6332e9d7-f1-1d7c
 R1
-=1-1cbfc08e8741-6332dc70-fa-3ae8
-R2
 n@_opt1
+R2
+Efpga_exp3
+Z4 w1664280555
+Z5 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
 R3
-Eseq_dect
-Z5 w1664277502
-Z6 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
-Z7 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
-R4
-Z8 8D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT.vhd
-Z9 FD:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT.vhd
+Z7 8D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3.vhd
+Z8 FD:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3.vhd
 l0
 L6
-Va6lJMJ3PX`Z:0H;:@I>ab0
-Z10 OL;C;10.2c;57
+V44;Rk^ihlAFnO0SG<6oLo0
+Z9 OL;C;10.2c;57
 31
-Z11 !s110 1664277615
-Z12 !s108 1664277615.813000
-Z13 !s90 -reportprogress|300|-93|-work|work|D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT.vhd|
-Z14 !s107 D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT.vhd|
-Z15 o-93 -work work
-Z16 tExplicit 1
-!s100 zEVA^SKfYFS3]R;CZN0BT3
+Z10 !s110 1664281046
+Z11 !s108 1664281046.816000
+Z12 !s90 -reportprogress|300|-93|-work|work|D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3.vhd|
+Z13 !s107 D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3.vhd|
+Z14 o-93 -work work
+Z15 tExplicit 1
+!s100 zM71gZlY8LjJ6JjoXU?CA0
 !i10b 1
 !i111 0
-Aarch_seq_dect
+Aarch_fpga_exp3
+R5
 R6
-R7
-DEx4 work 8 seq_dect 0 22 a6lJMJ3PX`Z:0H;:@I>ab0
-l18
-L15
-V@a6?UJ6X]7^M<hl6FO8=S3
-R10
+DEx4 work 9 fpga_exp3 0 22 44;Rk^ihlAFnO0SG<6oLo0
+l30
+L14
+V:>2jFVUC6ael5<hJEc4Pb0
+R9
 31
+R10
 R11
 R12
 R13
 R14
 R15
-R16
-!s100 M`zNo>96C:aCn6R^MUP?N3
+!s100 MgkX923ckYXDiR2FV1M>T3
 !i10b 1
 !i111 0
-Eseq_dect_tb
+Efpga_exp3_tb
+Z16 w1664280474
 R5
 R6
-R7
-R4
-Z17 8D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT_tb.vhd
-Z18 FD:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT_tb.vhd
+R3
+Z17 8D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3_tb.vhd
+Z18 FD:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3_tb.vhd
 l0
-L6
-V@Vf^U]>iGk:mIe5W4nH_G2
-R10
+L4
+VME=TIZ8AR]?ePmJlmoNc10
+R9
 31
-R11
-Z19 !s108 1664277615.906000
-Z20 !s90 -reportprogress|300|-93|-work|work|D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT_tb.vhd|
-Z21 !s107 D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT_tb.vhd|
+R10
+Z19 !s108 1664281046.911000
+Z20 !s90 -reportprogress|300|-93|-work|work|D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3_tb.vhd|
+Z21 !s107 D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3_tb.vhd|
+R14
 R15
-R16
-!s100 INmEBfThif<oQHJeD?IYM3
+!s100 cU8IFIH3n:XU50^[U8U:h3
 !i10b 1
 !i111 0
-Aarch_seq_dect_tb
+Aarch_fpga_exp3_tb
+R5
 R6
-R7
-DEx4 work 11 seq_dect_tb 0 22 @Vf^U]>iGk:mIe5W4nH_G2
-l22
-L9
-V13O3L2znhBCFQkTjNC2GV1
-R10
+DEx4 work 12 fpga_exp3_tb 0 22 ME=TIZ8AR]?ePmJlmoNc10
+l18
+L7
+VV>A58MS6e1]aJ:>;WWe`N2
+R9
 31
-R11
+R10
 R19
 R20
 R21
+R14
 R15
-R16
-!s100 X>=VOV<ja8<hOlW3bRzF:2
+!s100 _gC9mKVATkAQ_D@Nem43=3
+!i10b 1
+!i111 0
+Eseq_dect
+Z22 w1664277502
+R5
+R6
+R3
+Z23 8D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT.vhd
+Z24 FD:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT.vhd
+l0
+L6
+Va6lJMJ3PX`Z:0H;:@I>ab0
+R9
+31
+R10
+Z25 !s108 1664281046.722000
+Z26 !s90 -reportprogress|300|-93|-work|work|D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT.vhd|
+Z27 !s107 D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT.vhd|
+R14
+R15
+!s100 zEVA^SKfYFS3]R;CZN0BT3
+!i10b 1
+!i111 0
+Aarch_seq_dect
+R5
+R6
+DEx4 work 8 seq_dect 0 22 a6lJMJ3PX`Z:0H;:@I>ab0
+l18
+L15
+V@a6?UJ6X]7^M<hl6FO8=S3
+R9
+31
+R10
+R25
+R26
+R27
+R14
+R15
+!s100 M`zNo>96C:aCn6R^MUP?N3
+!i10b 1
+!i111 0
+Eseq_gen1
+Z28 w1664280863
+R5
+R6
+R3
+Z29 8D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_GEN1.vhd
+Z30 FD:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_GEN1.vhd
+l0
+L4
+VCj;T7Th:g<QU`ZPj47JB:2
+R9
+31
+R10
+Z31 !s108 1664281046.644000
+Z32 !s90 -reportprogress|300|-93|-work|work|D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_GEN1.vhd|
+Z33 !s107 D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_GEN1.vhd|
+R14
+R15
+!s100 _Rh8RTS9=`CcOI0Gi8mo?2
+!i10b 1
+!i111 0
+Aarch_seq_gen1
+R5
+R6
+DEx4 work 8 seq_gen1 0 22 Cj;T7Th:g<QU`ZPj47JB:2
+l15
+L12
+VB^M8`iIjM_f79Q8Dii3h82
+R9
+31
+R10
+R31
+R32
+R33
+R14
+R15
+!s100 R^i>:O_b^chd7PoZk`:Uk1
 !i10b 1
 !i111 0

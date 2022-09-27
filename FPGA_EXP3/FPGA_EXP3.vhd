@@ -12,7 +12,7 @@ entity FPGA_EXP3 is
 end FPGA_EXP3;
 
 architecture arch_FPGA_EXP3 of FPGA_EXP3 is
-	component SEQ_GEN port(
+	component SEQ_GEN1 port(
 			clk :IN std_logic;
 			reset :IN std_logic;
 			output :OUT std_logic
@@ -26,10 +26,11 @@ architecture arch_FPGA_EXP3 of FPGA_EXP3 is
 		detector_out :OUT std_logic
 	);
 	end component;
-	
+	signal sgnl :std_logic;
 begin
+	seq_gen_1: SEQ_GEN1 port map(clk, reset, sgnl);
+	seq_dector: SEQ_DECT port map(clk, reset, sgnl, detector_out);
+
 
 end arch_FPGA_EXP3;
-	
-			
 

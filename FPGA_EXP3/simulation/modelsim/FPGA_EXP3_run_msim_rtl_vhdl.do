@@ -44,13 +44,15 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vcom -93 -work work {D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_GEN1.vhd}
 vcom -93 -work work {D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT.vhd}
+vcom -93 -work work {D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3.vhd}
 
-vcom -93 -work work {D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT_tb.vhd}
+vcom -93 -work work {D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3_tb.vhd}
 
-vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  SEQ_DECT_tb
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  FPGA_EXP3_tb
 
 add wave *
 view structure
 view signals
-run 1000 sec
+run 1000 ns

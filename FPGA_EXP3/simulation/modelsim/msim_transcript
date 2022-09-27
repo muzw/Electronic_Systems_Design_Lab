@@ -759,6 +759,13 @@
 # vmap work rtl_work
 # Modifying modelsim.ini
 # 
+# vcom -93 -work work {D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_GEN1.vhd}
+# Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SEQ_GEN1
+# -- Compiling architecture arch_SEQ_GEN1 of SEQ_GEN1
 # vcom -93 -work work {D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT.vhd}
 # Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
 # -- Loading package STANDARD
@@ -766,25 +773,36 @@
 # -- Loading package std_logic_1164
 # -- Compiling entity SEQ_DECT
 # -- Compiling architecture arch_SEQ_DECT of SEQ_DECT
-# 
-# vcom -93 -work work {D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/SEQ_DECT_tb.vhd}
+# vcom -93 -work work {D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3.vhd}
 # Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity SEQ_DECT_tb
-# -- Compiling architecture arch_SEQ_DECT_tb of SEQ_DECT_tb
+# -- Compiling entity FPGA_EXP3
+# -- Compiling architecture arch_FPGA_EXP3 of FPGA_EXP3
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  SEQ_DECT_tb
-# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=\"+acc\" -t 1ps SEQ_DECT_tb 
+# vcom -93 -work work {D:/education/fpga/class/FPGA_EXP/FPGA_EXP3/FPGA_EXP3_tb.vhd}
+# Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FPGA_EXP3_tb
+# -- Compiling architecture arch_FPGA_EXP3_tb of FPGA_EXP3_tb
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  FPGA_EXP3_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=\"+acc\" -t 1ps FPGA_EXP3_tb 
 # ** Note: (vsim-3812) Design is being optimized...
 # 
 # ** Note: (vopt-143) Recognized 1 FSM in architecture body "SEQ_DECT(arch_SEQ_DECT)".
 # 
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "SEQ_GEN1(arch_SEQ_GEN1)".
+# 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.seq_dect_tb(arch_seq_dect_tb)#1
+# Loading work.fpga_exp3_tb(arch_fpga_exp3_tb)#1
+# Loading work.fpga_exp3(arch_fpga_exp3)#1
+# Loading work.seq_gen1(arch_seq_gen1)#1
 # Loading work.seq_dect(arch_seq_dect)#1
 # 
 # add wave *
@@ -792,14 +810,14 @@
 # 
 #           File in use by: Aweary  Hostname: LAPTOP-07C8FQOM  ProcessID: 17524
 # 
-#           Attempting to use alternate WLF file "./wlftbewqz1".
+#           Attempting to use alternate WLF file "./wlfts1w2ic".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlftbewqz1
+#           Using alternate file: ./wlfts1w2ic
 # 
 # 
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run 1000 sec
+# run 1000 ns
