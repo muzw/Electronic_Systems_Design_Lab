@@ -8,24 +8,36 @@ architecture arch_FPGA_EXP3_tb of FPGA_EXP3_tb is
 	component FPGA_EXP3 port(
 		clk :IN std_logic;
 		reset :IN std_logic;
+		selc :IN std_logic;
 		detector_out :OUT std_logic
 	);
 	end component;
-	signal clk:std_logic;
-	signal reset:std_logic;
-	signal detector_out:std_logic;
+	signal clk :std_logic;
+	signal reset :std_logic;
+	signal detector_out :std_logic;
+	signal selc :std_logic;
 
 begin
-	exp3: FPGA_EXP3 port map(clk,reset,detector_out);
+	exp3: FPGA_EXP3 port map(clk,reset,selc,detector_out);
 	reset <= '0';
 	process
 	begin
+		selc <= '0';
 		for i in 1 to 100 loop
 			clk <= '0';
 			wait for 20 ns;
 			clk <= '1';
 			wait for 20 ns;
 		end loop;
+		
+		selc <= '1';
+		for i in 1 to 100 loop
+			clk <= '0';
+			wait for 20 ns;
+			clk <= '1';
+			wait for 20 ns;
+		end loop;
+		
 	end process;
 
 end arch_FPGA_EXP3_tb;

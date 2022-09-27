@@ -11,7 +11,7 @@ entity SEQ_GEN2 is
 end SEQ_GEN2;
 
 architecture arch_SEQ_GEN2 of SEQ_GEN2 is
-	type states is (S0,S1,S2,S3,S4,S5,S6,S7);
+	type states is (S0,S1,S2,S3,S4,S5,S6,S7,S8);
 	signal st :states;
 begin
 	-- 状态寄存器和次态逻辑
@@ -28,7 +28,8 @@ begin
 				when s4 => st <= S5;
 				when s5 => st <= S6;
 				when s6 => st <= S7;
-				when s7 => st <= S0;
+				when s7 => st <= S8;
+				when s8 => st <= S0;
 			end case;
 		end if;
 	end process;
