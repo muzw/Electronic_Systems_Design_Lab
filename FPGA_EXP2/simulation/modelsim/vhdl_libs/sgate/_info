@@ -21,9 +21,9 @@ VSFzai[TKoBH63M@gg[2H[2
 !s100 9D]o5KVjKYUj0GRP6nWEK0
 Z7 OL;C;10.2c;57
 31
-Z8 !s110 1663847920
+Z8 !s110 1664198636
 !i10b 1
-Z9 !s108 1663847920.852000
+Z9 !s108 1664198636.759000
 Z10 !s90 -reportprogress|300|-93|-work|sgate|d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|
 Z11 !s107 d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|
 !i111 0
@@ -224,7 +224,7 @@ VzAAW<b74aeX0[OId:?hQT3
 !s100 ]GB:UYJTDBL[;oz<>gBjg2
 R7
 31
-Z31 !s110 1663847921
+R8
 !i10b 1
 R9
 R10
@@ -235,14 +235,14 @@ R13
 Asim_arch
 R2
 R3
-Z32 DEx4 work 12 oper_bus_mux 0 22 zAAW<b74aeX0[OId:?hQT3
+Z31 DEx4 work 12 oper_bus_mux 0 22 zAAW<b74aeX0[OId:?hQT3
 l1205
 L1203
-Z33 VO^;IKP[S_oZ1^PiL5f<AI1
-Z34 !s100 e6eN?>6c5H^dLhD64S13M3
+Z32 VO^;IKP[S_oZ1^PiL5f<AI1
+Z33 !s100 e6eN?>6c5H^dLhD64S13M3
 R7
 31
-R31
+R8
 !i10b 1
 R9
 R10
@@ -264,7 +264,7 @@ VJfH6G]f7JLWm8PEQXR3Y@1
 !s100 U<0E7THP6DLH;^Jc_;l[c3
 R7
 31
-R31
+R8
 !i10b 1
 R9
 R10
@@ -276,14 +276,14 @@ Asim_arch
 R24
 R2
 R3
-Z35 DEx4 work 12 oper_decoder 0 22 JfH6G]f7JLWm8PEQXR3Y@1
+Z34 DEx4 work 12 oper_decoder 0 22 JfH6G]f7JLWm8PEQXR3Y@1
 l1156
 L1148
-Z36 VkdJfVEF@B:5G<jXedgjVN2
-Z37 !s100 ecYKCiPibQj1Jz26^S9ig0
+Z35 VkdJfVEF@B:5G<jXedgjVN2
+Z36 !s100 ecYKCiPibQj1Jz26^S9ig0
 R7
 31
-R31
+R8
 !i10b 1
 R9
 R10
@@ -293,7 +293,7 @@ R12
 R13
 Eoper_div
 R1
-Z38 DPx3 lpm 14 lpm_components 0 22 jcfY7iEM3RA43AW8K@nL[2
+Z37 DPx3 lpm 14 lpm_components 0 22 jcfY7iEM3RA43AW8K@nL[2
 R24
 R2
 R3
@@ -315,15 +315,15 @@ R11
 R12
 R13
 Asim_arch
-R38
+R37
 R24
 R2
 R3
-Z39 DEx4 work 8 oper_div 0 22 JdHk5BiS;ETY6_lF3lH7:1
+Z38 DEx4 work 8 oper_div 0 22 JdHk5BiS;ETY6_lF3lH7:1
 l448
 L435
-Z40 V[N>>_<gV@EbBSan6PZ3953
-Z41 !s100 G?^C0fMm<J5SIJS>ll7>b3
+Z39 V[N>>_<gV@EbBSan6PZ3953
+Z40 !s100 G?^C0fMm<J5SIJS>ll7>b3
 R7
 31
 R8
@@ -348,7 +348,7 @@ VegHQFaTL@modPC@TAn:Z:1
 !s100 U_faX5lLG834ND5:7U0h?0
 R7
 31
-R31
+R8
 !i10b 1
 R9
 R10
@@ -360,14 +360,14 @@ Asim_arch
 R24
 R2
 R3
-Z42 DEx4 work 10 oper_latch 0 22 egHQFaTL@modPC@TAn:Z:1
+Z41 DEx4 work 10 oper_latch 0 22 egHQFaTL@modPC@TAn:Z:1
 l1258
 L1256
-Z43 V`Kji380a`:8TMkbPSdYKH2
-Z44 !s100 ;dQ194:Fi;JVemc?kE3<C2
+Z42 V`Kji380a`:8TMkbPSdYKH2
+Z43 !s100 ;dQ194:Fi;JVemc?kE3<C2
 R7
 31
-R31
+R8
 !i10b 1
 R9
 R10
@@ -377,7 +377,7 @@ R12
 R13
 Eoper_left_shift
 R1
-Z45 DPx4 ieee 18 std_logic_unsigned 0 22 @_jbHPR7i^Jh?`2fDCO`m3
+Z44 DPx4 ieee 18 std_logic_unsigned 0 22 @_jbHPR7i^Jh?`2fDCO`m3
 R24
 R2
 R3
@@ -399,15 +399,15 @@ R11
 R12
 R13
 Asim_arch
-R45
+R44
 R24
 R2
 R3
-Z46 DEx4 work 15 oper_left_shift 0 22 @ZgjL:8h^B00zKN?>GNo31
+Z45 DEx4 work 15 oper_left_shift 0 22 @ZgjL:8h^B00zKN?>GNo31
 l613
 L607
-Z47 VBjkB43^E6>K0g?dMF^:]a2
-Z48 !s100 e36hk@KPoJ:`DV:>SiD7A3
+Z46 VBjkB43^E6>K0g?dMF^:]a2
+Z47 !s100 e36hk@KPoJ:`DV:>SiD7A3
 R7
 31
 R8
@@ -444,11 +444,11 @@ Asim_arch
 R24
 R2
 R3
-Z49 DEx4 work 14 oper_less_than 0 22 5_=7Mfg1oDX^fi>A2KR`81
+Z48 DEx4 work 14 oper_less_than 0 22 5_=7Mfg1oDX^fi>A2KR`81
 l933
 L931
-Z50 VE>nLDG1UFFK=4B^Hjkf4:1
-Z51 !s100 b9KWM2l@L^n@Y`lg@:RLE2
+Z49 VE>nLDG1UFFK=4B^Hjkf4:1
+Z50 !s100 b9KWM2l@L^n@Y`lg@:RLE2
 R7
 31
 R8
@@ -461,7 +461,7 @@ R12
 R13
 Eoper_mod
 R1
-R38
+R37
 R2
 R3
 R4
@@ -482,14 +482,14 @@ R11
 R12
 R13
 Asim_arch
-R38
+R37
 R2
 R3
-Z52 DEx4 work 8 oper_mod 0 22 3jPgUdzb8P9cFL_nTJS:43
+Z51 DEx4 work 8 oper_mod 0 22 3jPgUdzb8P9cFL_nTJS:43
 l535
 L522
-Z53 VCb[_h0QA`<@FVl60da0LF2
-Z54 !s100 SSNDPcie1iD2ko2SK[Y@j3
+Z52 VCb[_h0QA`<@FVl60da0LF2
+Z53 !s100 SSNDPcie1iD2ko2SK[Y@j3
 R7
 31
 R8
@@ -528,11 +528,11 @@ R23
 R24
 R2
 R3
-Z55 DEx4 work 9 oper_mult 0 22 =k2Vf3Q]M^_a:bd76ZTLN1
+Z54 DEx4 work 9 oper_mult 0 22 =k2Vf3Q]M^_a:bd76ZTLN1
 l360
 L354
-Z56 VZe:aR0AH<oz:4Ggi78maj3
-Z57 !s100 NTJO52U59g[CoUSCAFY:o0
+Z55 VZe:aR0AH<oz:4Ggi78maj3
+Z56 !s100 NTJO52U59g[CoUSCAFY:o0
 R7
 31
 R8
@@ -545,7 +545,7 @@ R12
 R13
 Eoper_mux
 R1
-Z58 DPx5 sgate 10 sgate_pack 0 22 ceFeiMV8?VfzR2>nXE6ZT2
+Z57 DPx5 sgate 10 sgate_pack 0 22 ceFeiMV8?VfzR2>nXE6ZT2
 R2
 R3
 R4
@@ -566,14 +566,14 @@ R11
 R12
 R13
 Asim_arch
-R58
+R57
 R2
 R3
-Z59 DEx4 work 8 oper_mux 0 22 LT`z2:3hT@`VaF<?Tg9m21
+Z58 DEx4 work 8 oper_mux 0 22 LT`z2:3hT@`VaF<?Tg9m21
 l1018
 L1015
-Z60 Vf>OHhzWci5k;URcF4WAbP1
-Z61 !s100 IKihKW6S;W:g0WDCCcD<U1
+Z59 Vf>OHhzWci5k;URcF4WAbP1
+Z60 !s100 IKihKW6S;W:g0WDCCcD<U1
 R7
 31
 R8
@@ -612,11 +612,11 @@ R23
 R24
 R2
 R3
-Z62 DEx4 work 18 oper_prio_selector 0 22 O=dR1zFdBY:`P5JXaAIcZ3
+Z61 DEx4 work 18 oper_prio_selector 0 22 O=dR1zFdBY:`P5JXaAIcZ3
 l1119
 L1118
-Z63 VnjLSXM>cao2[X>Q^ZPzdP1
-Z64 !s100 kmWa8U;[n@o`DT?D@:4TN1
+Z62 VnjLSXM>cao2[X>Q^ZPzdP1
+Z63 !s100 kmWa8U;[n@o`DT?D@:4TN1
 R7
 31
 R8
@@ -629,7 +629,7 @@ R12
 R13
 Eoper_right_shift
 R1
-R45
+R44
 R24
 R2
 R3
@@ -651,15 +651,15 @@ R11
 R12
 R13
 Asim_arch
-R45
+R44
 R24
 R2
 R3
-Z65 DEx4 work 16 oper_right_shift 0 22 WK>IMa4az=z7m4K1AT==A0
+Z64 DEx4 work 16 oper_right_shift 0 22 WK>IMa4az=z7m4K1AT==A0
 l701
 L687
-Z66 VWig?>ESX3O6hn11C>0?AU1
-Z67 !s100 mGMg_DJ?41SRfm6PzRc;@2
+Z65 VWig?>ESX3O6hn11C>0?AU1
+Z66 !s100 mGMg_DJ?41SRfm6PzRc;@2
 R7
 31
 R8
@@ -672,7 +672,7 @@ R12
 R13
 Eoper_rotate_left
 R1
-R38
+R37
 R2
 R3
 R4
@@ -693,14 +693,14 @@ R11
 R12
 R13
 Asim_arch
-R38
+R37
 R2
 R3
-Z68 DEx4 work 16 oper_rotate_left 0 22 Nh?k=CWCm<D1VVF0OBdX60
+Z67 DEx4 work 16 oper_rotate_left 0 22 Nh?k=CWCm<D1VVF0OBdX60
 l780
 L775
-Z69 VeCfDF^TDDoF;0TBg81amR3
-Z70 !s100 XFnSF2R2emX:5TZU5]HQ=3
+Z68 VeCfDF^TDDoF;0TBg81amR3
+Z69 !s100 XFnSF2R2emX:5TZU5]HQ=3
 R7
 31
 R8
@@ -713,7 +713,7 @@ R12
 R13
 Eoper_rotate_right
 R1
-R38
+R37
 R2
 R3
 R4
@@ -734,14 +734,14 @@ R11
 R12
 R13
 Asim_arch
-R38
+R37
 R2
 R3
-Z71 DEx4 work 17 oper_rotate_right 0 22 KI9@>1O[R9bU^B^GUNXK:3
+Z70 DEx4 work 17 oper_rotate_right 0 22 KI9@>1O[R9bU^B^GUNXK:3
 l859
 L854
-Z72 VU7hOoo5aAX;J2jYQV>?o51
-Z73 !s100 If7CL4TFMW2m5=:D8:dK;1
+Z71 VU7hOoo5aAX;J2jYQV>?o51
+Z72 !s100 If7CL4TFMW2m5=:D8:dK;1
 R7
 31
 R8
@@ -776,11 +776,11 @@ R13
 Asim_arch
 R2
 R3
-Z74 DEx4 work 13 oper_selector 0 22 h95C8XzP><n?O^cGfb>Aj3
+Z73 DEx4 work 13 oper_selector 0 22 h95C8XzP><n?O^cGfb>Aj3
 l1062
 L1061
-Z75 VFnM^C;RWk5[GkB;=gfdZD1
-Z76 !s100 jPKWdWES3><e0>VG3=fGf1
+Z74 VFnM^C;RWk5[GkB;=gfdZD1
+Z75 !s100 jPKWdWES3><e0>VG3=fGf1
 R7
 31
 R8
@@ -796,8 +796,8 @@ R2
 R3
 R1
 R4
-Z77 8d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd
-Z78 Fd:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd
+Z76 8d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd
+Z77 Fd:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd
 l0
 L19
 VceFeiMV8?VfzR2>nXE6ZT2
@@ -805,9 +805,9 @@ R7
 31
 b1
 R8
-Z79 !s108 1663847920.768000
-Z80 !s90 -reportprogress|300|-93|-work|sgate|d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|
-Z81 !s107 d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|
+Z78 !s108 1664198636.669000
+Z79 !s90 -reportprogress|300|-93|-work|sgate|d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|
+Z80 !s107 d:/software/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|
 R12
 R13
 !s100 fSGJ60kf_378nmfC4`AW11
@@ -824,9 +824,9 @@ VI62j[NR^FB8n8^AT=oQzC0
 R7
 31
 R8
+R78
 R79
 R80
-R81
 R12
 R13
 nbody
@@ -856,11 +856,11 @@ R13
 Asim_arch
 R2
 R3
-Z82 DEx4 work 7 tri_bus 0 22 W8PX7k>Bac:cA4l3L__0k0
+Z81 DEx4 work 7 tri_bus 0 22 W8PX7k>Bac:cA4l3L__0k0
 l306
 L304
-Z83 V:OA0l^Nmh_M7kQXYk`=;c2
-Z84 !s100 _dYlda?W86YfFT2<gBM8K2
+Z82 V:OA0l^Nmh_M7kQXYk`=;c2
+Z83 !s100 _dYlda?W86YfFT2<gBM8K2
 R7
 31
 R8

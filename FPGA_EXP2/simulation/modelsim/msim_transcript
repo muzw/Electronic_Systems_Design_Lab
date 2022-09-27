@@ -751,7 +751,11 @@
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is Aweary@LAPTOP-07C8FQOM.
+# 
 # vlib rtl_work
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# 
 # vmap work rtl_work
 # Modifying modelsim.ini
 # 
@@ -782,6 +786,15 @@
 # Loading work.fpga_exp2(arch)#1
 # 
 # add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Aweary  Hostname: LAPTOP-07C8FQOM  ProcessID: 2996
+# 
+#           Attempting to use alternate WLF file "./wlftrb9sjc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftrb9sjc
+# 
 # 
 # view structure
 # .main_pane.structure.interior.cs.body.struct

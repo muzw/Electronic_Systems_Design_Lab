@@ -1,0 +1,16 @@
+|SEQ_DECT
+clk => st~6.DATAIN
+reset => st~8.DATAIN
+data_input => st.DATAB
+data_input => st.DATAB
+data_input => st.DATAB
+data_input => st.DATAB
+data_input => st.DATAB
+data_input => st.DATAB
+data_input => Selector0.IN1
+data_input => st.DATAB
+data_input => st.DATAB
+data_input => st.DATAB
+detector_out <= detector_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

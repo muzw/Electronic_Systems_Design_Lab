@@ -1,5 +1,5 @@
 Flow report for FPGA_EXP2
-Thu Sep 22 19:36:59 2022
+Mon Sep 26 22:17:04 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------------+
 ; Flow Summary                                                                           ;
 +-------------------------------------+--------------------------------------------------+
-; Flow Status                         ; Successful - Thu Sep 22 19:36:59 2022            ;
+; Flow Status                         ; Successful - Mon Sep 26 22:17:04 2022            ;
 ; Quartus II 64-Bit Version           ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                       ; FPGA_EXP2                                        ;
 ; Top-level Entity Name               ; FPGA_EXP2                                        ;
@@ -69,7 +69,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/22/2022 19:36:17 ;
+; Start date & time ; 09/26/2022 22:16:30 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; FPGA_EXP2           ;
 +-------------------+---------------------+
@@ -80,7 +80,7 @@ applicable agreement for further details.
 +--------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 31609894897474.166384657715980 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 31609894897474.166420179011380 ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                             ; --            ; --          ; FPGA_EXP2_tb   ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; FPGA_EXP2_tb                   ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                           ; --            ; --          ; eda_simulation ;
@@ -105,12 +105,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4706 MB             ; 00:00:02                           ;
-; Fitter                    ; 00:00:24     ; 1.6                     ; 6268 MB             ; 00:00:29                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 4700 MB             ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:07     ; 1.0                     ; 5141 MB             ; 00:00:07                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4707 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:19     ; 1.8                     ; 6257 MB             ; 00:00:25                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 4712 MB             ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 5142 MB             ; 00:00:06                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4582 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:38     ; --                      ; --                  ; 00:00:43                           ;
+; Total                     ; 00:00:32     ; --                      ; --                  ; 00:00:37                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

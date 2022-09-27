@@ -19,5 +19,5 @@ Sim dir               :  simulation\modelsim
 
 Info: Starting NativeLink simulation with ModelSim software
 Sourced NativeLink script d:/software/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
-Warning: File FPGA_EXP2_run_msim_rtl_vhdl.do already exists - backing up current file as FPGA_EXP2_run_msim_rtl_vhdl.do.bak3
+Warning: File FPGA_EXP2_run_msim_rtl_vhdl.do already exists - backing up current file as FPGA_EXP2_run_msim_rtl_vhdl.do.bak4
 Info: Spawning ModelSim Simulation software 
