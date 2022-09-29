@@ -19,8 +19,24 @@ architecture arch_FPGA_EXP3_tb of FPGA_EXP3_tb is
 
 begin
 	exp3: FPGA_EXP3 port map(clk,reset,selc,detector_out);
-	reset <= '0';
+	--selc <= '0';
+	--reset <= '0';
+	process 
+	begin
 	selc <= '0';
+	wait for 2000 ns;
+	selc <= '1';
+	wait for 2000 ns;
+	end process;
+	
+	process 
+	begin
+	reset <= '0';
+	wait for 4000 ns;
+	reset <= '1';
+	wait for 4000 ns;
+	end process;
+	
 	process
 	begin
 			clk <= '0';
