@@ -18,7 +18,9 @@ architecture arch_SEQ_DECT_tb of SEQ_DECT_tb is
 	signal reset :std_logic;
 	signal data_input :std_logic;
 	signal detector_out :std_logic;
-	constant seq1 :std_logic_vector(1 to 9) := "110010011";
+	constant seq1 :std_logic_vector(1 to 15) := "011101110100110";
+	--constant seq1 :std_logic_vector(1 to 9) := "111010011";
+
 begin
 	sql_dect: SEQ_DECT port map(clk, reset, data_input, detector_out);
 	reset <= '0';
@@ -26,12 +28,14 @@ begin
 	begin
 
 
-		for i in 1 to 9 loop
+		for i in 1 to 15 loop
 			clk <= '0';		
+			
 			wait for 20 ns;
-			data_input <= seq1(i);
+			
 
 			clk <= '1';
+			data_input <= seq1(i);
 			wait for 20 ns;
 		end loop;
 	end process;

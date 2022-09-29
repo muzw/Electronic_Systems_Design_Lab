@@ -14,7 +14,7 @@ end div;
 architecture arch_DIV of DIV is
 begin
 	process(clk_in)
-		variable num: integer range 0 to 10000000;
+			variable num: integer range 0 to 10000000;
 	begin
 		 if (clk_in'event and clk_in='1') then
 						num := num + 1; 

@@ -19,88 +19,20 @@ architecture arch_SEQ_GEN1_tb of SEQ_GEN1_tb is
 begin
 	fsm: SEQ_GEN1 port map(clk, reset, output);
 	
-	process
+	clk_stimulus:process
 	begin
-		reset <= '1';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '1';
-		clk 	<= '1';
-		wait for 20 ns;		
-		reset <= '1';
-		clk 	<= '0';
-		wait for 20 ns;		
-		reset <= '1';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;	
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '1';
-		wait for 20 ns;
-		reset <= '0';
-		clk 	<= '0';
-		wait for 20 ns;
+		clk <= '0';
+		wait for 10 ns;
+		clk <= '1';
+		wait for 10 ns;
+	end process;
+	
+	init_stimulus:process 
+	begin
+	reset <= '0';
+	wait for 500 ns;
+	reset <= '1';
+	wait for 50 ns;
+	
 	end process;
 end arch_SEQ_GEN1_tb;

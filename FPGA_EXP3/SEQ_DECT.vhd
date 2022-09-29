@@ -53,7 +53,7 @@ begin
 									st <= S0;
 								end if;
 				when s5 => if(data_input = '1') then
-									st <= S1;
+									st <= S2;
 								else 
 									st <= S6;
 								end if;
