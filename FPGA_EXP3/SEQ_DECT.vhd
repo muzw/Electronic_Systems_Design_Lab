@@ -1,4 +1,4 @@
--- 作业2 序列检测器 @PB20051061牟真伟
+-- FPGA_EXP3 序列检测器2 @PB20051061牟真伟
 
 library ieee;
 use ieee.std_logic_1164.all;

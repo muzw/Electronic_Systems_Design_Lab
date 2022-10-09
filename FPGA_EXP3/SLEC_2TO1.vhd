@@ -1,3 +1,5 @@
+-- FPGA_EXP3 2to1选择器 @PB20051061牟真伟
+
 library ieee;
 use ieee.std_logic_1164.all;
 

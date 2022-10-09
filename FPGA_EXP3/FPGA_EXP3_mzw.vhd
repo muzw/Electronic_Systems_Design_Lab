@@ -1,16 +1,18 @@
+-- FPGA_EXP3 顶层实体 @PB20051061牟真伟
+
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity FPGA_EXP3 is
+entity FPGA_EXP3_mzw is
 	port(
 		clk :IN std_logic;
 		reset :IN std_logic;
 		selc :IN std_logic;
 		detector_out :OUT std_logic
 	);
-end FPGA_EXP3;
+end FPGA_EXP3_mzw;
 
-architecture arch_FPGA_EXP3 of FPGA_EXP3 is
+architecture arch_FPGA_EXP3 of FPGA_EXP3_mzw is
 	component SLEC_2TO1	port(
 			in1 :IN std_logic;
 			in2 :IN std_logic;

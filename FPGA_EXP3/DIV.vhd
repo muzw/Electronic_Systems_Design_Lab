@@ -1,4 +1,4 @@
--- 分频器
+-- FPGA_EXP3 分频器 @PB20051061牟真伟
 
 library ieee;
 use ieee.std_logic_1164.all;

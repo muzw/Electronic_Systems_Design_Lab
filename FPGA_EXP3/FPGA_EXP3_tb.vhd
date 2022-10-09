@@ -1,3 +1,5 @@
+-- FPGA_EXP3 顶层实体test bench @PB20051061牟真伟
+
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -5,7 +7,7 @@ entity FPGA_EXP3_tb is
 end FPGA_EXP3_tb;
 
 architecture arch_FPGA_EXP3_tb of FPGA_EXP3_tb is
-	component FPGA_EXP3 port(
+	component FPGA_EXP3_mzw port(
 		clk :IN std_logic;
 		reset :IN std_logic;
 		selc :IN std_logic;
@@ -18,7 +20,7 @@ architecture arch_FPGA_EXP3_tb of FPGA_EXP3_tb is
 	signal selc :std_logic;
 
 begin
-	exp3: FPGA_EXP3 port map(clk,reset,selc,detector_out);
+	exp3: FPGA_EXP3_mzw port map(clk,reset,selc,detector_out);
 	--selc <= '0';
 	--reset <= '0';
 	process 

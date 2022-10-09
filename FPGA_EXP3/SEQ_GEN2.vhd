@@ -1,3 +1,4 @@
+-- FPGA_EXP3 序列产生器2 @PB20051061牟真伟
 
 library ieee;
 use ieee.std_logic_1164.all;
