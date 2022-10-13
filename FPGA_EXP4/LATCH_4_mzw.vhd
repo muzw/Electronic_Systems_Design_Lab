@@ -1,4 +1,4 @@
--- latch @ PB20051061
+-- 四位锁存器latch @ PB20051061 牟真伟
 
 library ieee;
 use ieee.std_logic_1164.all;
