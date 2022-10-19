@@ -6,7 +6,7 @@ use ieee.std_logic_1164.all;
 entity key_read_mzw is
 	port(
 		cnt :IN std_logic_vector(1 downto 0);
-		SW_R :INOUT std_logic_vector(3 downto 0);
+		SW_R :IN std_logic_vector(3 downto 0);
 		result :OUT std_logic_vector(3 downto 0)
 	);
 end key_read_mzw;

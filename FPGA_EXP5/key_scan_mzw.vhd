@@ -6,7 +6,7 @@ use ieee.std_logic_1164.all;
 entity key_scan_mzw is
 	port(
 		cnt :IN std_logic_vector(1 downto 0);
-		SW_C :INOUT std_logic_vector(3 downto 0) -- 对应4321列
+		SW_C :OUT std_logic_vector(3 downto 0) -- 对应4321列
 	);
 end key_scan_mzw;
 

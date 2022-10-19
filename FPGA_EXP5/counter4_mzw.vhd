@@ -7,7 +7,7 @@ use ieee.std_logic_unsigned.all;
 entity counter4_mzw	is
 	port(
 		clk :IN std_logic;
-		cnt :INOUT std_logic_vector(2 downto 0):="00"
+		cnt :INOUT std_logic_vector(1 downto 0):="00"
 	);
 end counter4_mzw;
 
