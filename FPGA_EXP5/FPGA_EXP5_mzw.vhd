@@ -2,6 +2,7 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
 
 entity FPGA_EXP5_mzw is
 	port(
@@ -54,7 +55,6 @@ begin
 	key_scan :key_scan_mzw port map(cnt,SW_C);
 	key_read :key_read_mzw port map(cnt,SW_R,location);
 	decoder47 :decoder47_mzw port map(location,LED_SEC);
-	
 	COM <= '1';
 	
 
