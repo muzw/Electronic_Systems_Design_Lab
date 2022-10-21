@@ -24,7 +24,6 @@ architecture arch_FPGA_EXP5_tb of FPGA_EXP5_tb is
 
 begin
 	fpga_exp5 :FPGA_EXP5_mzw port map(clk,SW_R,SW_C,COM,LED_SEC);
-
 	process
 	begin		
 		clk <= '0';
@@ -33,10 +32,18 @@ begin
 		wait for 10 ns;
 	end process;
 	
-
+	process
+	begin		
 		SW_R <= "1110";
-	
-	
-	
+		wait for 80 ns;
+		SW_R <= "1101";
+		wait for 80 ns;
+		SW_R <= "1011";
+		wait for 80 ns;
+		SW_R <= "0111";
+		wait for 80 ns;
+		SW_R <= "1111";
+		wait for 500 ns;
+	end process;
 
 end arch_FPGA_EXP5_tb;

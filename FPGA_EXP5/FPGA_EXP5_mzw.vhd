@@ -12,7 +12,7 @@ entity FPGA_EXP5_mzw is
 	);
 end FPGA_EXP5_mzw;
 
-architecture arch2_FPGA_EXP5 of FPGA_EXP5_mzw is
+architecture arch_FPGA_EXP5 of FPGA_EXP5_mzw is
 	component DIV_mzw port(
 		clk_in :IN std_logic;
 		clk_out :INOUT std_logic
@@ -29,16 +29,14 @@ architecture arch2_FPGA_EXP5 of FPGA_EXP5_mzw is
 			clk: in std_logic;
 			row:  in std_logic_vector(3 downto 0);
 			col: out std_logic_vector(3 downto 0);
-			keyout: out std_logic_vector(3 downto 0);
-			flag: out std_logic
+			keyout: out std_logic_vector(3 downto 0)
 	);
 	end component;
 	signal clk_out :std_logic;
 	signal location :std_logic_vector(3 downto 0);
-	signal flag :std_logic;
 begin
 	divider :DIV_mzw port map(clk,clk_out);
 	decoder47 :decoder47_mzw port map(location,LED_SEC);
-	mat :matrix port map(clk_out,SW_R,SW_C,location,flag);
+	matrix_key :matrix port map(clk_out,SW_R,SW_C,location);
 	COM <= '1';
 end arch_FPGA_EXP5;
