@@ -7,61 +7,43 @@ entity key_read_mzw is
 	port(
 		cnt :IN std_logic_vector(1 downto 0);
 		SW_R :IN std_logic_vector(3 downto 0);
-		result :OUT std_logic_vector(3 downto 0)
+		location :OUT std_logic_vector(3 downto 0)
 	);
 end key_read_mzw;
 
 architecture arch_key_read of key_read_mzw is
-
 begin
-	process(cnt)
-	begin
+	process(cnt,SW_R)
+	begin	
 			case cnt is
-				when "00" => 	if SW_R(0) = '0' then
-										result <= "0000";
-									elsif SW_R(1) = '0' then
-										result <= "0100";
-									elsif SW_R(2) = '0' then
-										result <= "1000";
-									elsif SW_R(3) = '0' then
-										result <= "1100";	
-									else null;
-									end if;
-				
-				when "01" => 	if SW_R(0) = '0' then
-										result <= "0001";
-									elsif SW_R(1) = '0' then
-										result <= "0101";
-									elsif SW_R(2) = '0' then
-										result <= "1001";
-									elsif SW_R(3) = '0' then
-										result <= "1101";	
-									else null;
-									end if;
-
-				
-				when "10" => 	if SW_R(0) = '0' then
-										result <= "0010";
-									elsif SW_R(1) = '0' then
-										result <= "0110";
-									elsif SW_R(2) = '0' then
-										result <= "1010";
-									elsif SW_R(3) = '0' then
-										result <= "1110";	
-									else null;
-									end if;
-
-				when "11" => 	if SW_R(0) = '0' then
-										result <= "0011";
-									elsif SW_R(1) = '0' then
-										result <= "0111";
-									elsif SW_R(2) = '0' then
-										result <= "1011";
-									elsif SW_R(3) = '0' then
-										result <= "1111";	
-									else null;
-									end if;
-
+				when "00" => 	case SW_R is
+									when "1110" => location <= "0000";
+									when "1101" => location <= "0100";
+									when "1011" => location <= "1000";
+									when "0111" => location <="1100";
+									when others => null;
+									end case;
+				when "01" => 	case SW_R is
+									when "1110" => location <= "0001";
+									when "1101" => location <= "0101";
+									when "1011" => location <="1001";
+									when "0111" => location <= "1101";
+									when others => null;
+									end case;
+				when "10" => 	case SW_R is
+									when "1110" => location <= "0010";
+									when "1101" => location <= "0110";
+									when "1011" => location <= "1010";
+									when "0111" => location <="1110";
+									when others => null;
+									end case;
+				when "11" => 	case SW_R is
+									when "1110" => location <= "0011";
+									when "1101" => location <= "0111";
+									when "1011" => location <= "1011";
+									when "0111" => location <= "1111";
+									when others => null;
+									end case;
 				when others => null;
 			end case;
 	end process;

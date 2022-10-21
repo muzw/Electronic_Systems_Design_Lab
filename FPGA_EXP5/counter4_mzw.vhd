@@ -15,9 +15,26 @@ architecture arch_counter4 of counter4_mzw is
 	
 begin
 	process(clk)
+	variable num: integer range 0 to 4;  --2000分频
 	begin
 		if (clk'event and clk='1') then
-			cnt <= cnt + 1;
+			num := num + 1; 
+			if(num = 4) then
+				num := 0;	
+			end if;
+			
+			if(num = 0) then
+				cnt <= "00";
+			elsif(num = 1)  then
+				cnt <= "01";
+			elsif(num = 2)  then
+				cnt <= "10";
+			elsif(num = 3)  then
+				cnt <= "11";
+			else null;
+			end if;
 		end if;
 	end process;
+	
+	
 end arch_counter4;
