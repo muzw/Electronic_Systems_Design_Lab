@@ -25,7 +25,7 @@ architecture arch_FPGA_EXP5 of FPGA_EXP5_mzw is
 	);
 	end component;
 	
-	component matrix port(
+	component matrix_mzw port(
 			clk: in std_logic;
 			row:  in std_logic_vector(3 downto 0);
 			col: out std_logic_vector(3 downto 0);
@@ -37,6 +37,6 @@ architecture arch_FPGA_EXP5 of FPGA_EXP5_mzw is
 begin
 	divider :DIV_mzw port map(clk,clk_out);
 	decoder47 :decoder47_mzw port map(location,LED_SEC);
-	matrix_key :matrix port map(clk_out,SW_R,SW_C,location);
+	matrix_key :matrix_mzw port map(clk_out,SW_R,SW_C,location);
 	COM <= '1';
 end arch_FPGA_EXP5;

@@ -1,16 +1,18 @@
+-- 矩阵键盘扫描读取电路 @ PB20051061 牟真伟
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
-entity matrix is
+entity matrix_mzw is
 	port(
 		clk: in std_logic;
 		row:  in std_logic_vector(3 downto 0);
 		col: out std_logic_vector(3 downto 0);
 		keyout: out std_logic_vector(3 downto 0)
 	);
-end matrix;
+end matrix_mzw;
 	
-architecture behave of matrix is
+architecture arch_matrix of matrix_mzw is
 	signal col_sgn:  std_logic_vector(3 downto 0);
 	signal con: std_logic_vector(7 downto 0);
 begin
@@ -56,4 +58,4 @@ begin
 			end case;
 		end if;
 	end process;
-end behave;
+end arch_matrix;
